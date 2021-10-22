@@ -1,0 +1,6 @@
+framework module XUIKit {
+  umbrella header "XUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

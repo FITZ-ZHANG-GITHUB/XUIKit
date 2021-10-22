@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XUIKit_Example' do
+  pod 'XUIKit', :path => '../'
+
+  target 'XUIKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
